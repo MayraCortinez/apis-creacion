@@ -123,7 +123,7 @@ const moviesController = {
     destroy: function (req,res) {
         let movieId = req.params.id;
         Movies
-        .destroy({where: {id: movieId}, force: true}) // force: true es para asegurar que se ejecute la acción
+        .destroy({where: {id: movieId}, force: true}) 
         .then(()=>{
             return res.redirect('/movies')})
         .catch(error => res.send(error)) 
