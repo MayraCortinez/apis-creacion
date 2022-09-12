@@ -5,7 +5,7 @@ const checkID = (id) => {
       meta: {
         status: 404
       },
-      msg: "Numero incorrecto"
+      msg: "Número incorrecto"
     }
     return response
   }
