@@ -77,7 +77,7 @@ const moviesController = {
                 meta: {
                     status: 500
                 },
-                msg: error.message ? error.message : "comuniquese con el administrador del sitio"
+                msg: error.message ? error.message : "Comuníquese con el administrador del sitio"
             }
             return res.status(500).json(response)
 
@@ -120,7 +120,7 @@ const moviesController = {
                 meta: {
                     status: 500
                 },
-                msg: error.message ? error.message : "comuniquese con el administrador del sitio"
+                msg: error.message ? error.message : "Comuníquese con el administrador del sitio"
             }
             return res.status(500).json(response)
 
@@ -151,7 +151,7 @@ const moviesController = {
                 meta: {
                     status: 500
                 },
-                msg: error.message ? error.message : "comuniquese con el administrador del sitio"
+                msg: error.message ? error.message : "Comuníquese con el administrador del sitio"
             }
             return res.status(500).json(response)
 
@@ -204,7 +204,7 @@ const moviesController = {
                 meta: {
                     status: 500
                 },
-                msg: error.message ? error.message : "comuniquese con el administrador del sitio"
+                msg: error.message ? error.message : "Comuníquese con el administrador del sitio"
             }
             return res.status(500).json(response)
 
@@ -269,7 +269,7 @@ const moviesController = {
                     meta: {
                         status: 500
                     },
-                    msg: error.message ? error.message : "comuniquese con el administrador del sitio"
+                    msg: error.message ? error.message : "Comuníquese con el administrador del sitio"
                 }
                 return res.status(500).json(response)
             }
@@ -335,7 +335,7 @@ const moviesController = {
               meta: {
                 status: 500,
               },
-              msg: error.message ? error.message : "Comuniquese con el administrador",
+              msg: error.message ? error.message : "Comuníquese con el administrador",
             };
             return res.status(500).json(response);
           }
